@@ -30,6 +30,7 @@
   "main": "./lib/npm.js",
   "bin": "./bin/npm-cli.js",
   "dependencies": {
+    "@npmcorp/move": "~1.0.0",
     "JSONStream": "~1.3.0",
     "abbrev": "~1.1.0",
     "ansi-regex": "~2.1.1",
@@ -38,6 +39,7 @@
     "aproba": "~1.1.1",
     "archy": "~1.0.0",
     "asap": "~2.0.5",
+    "bluebird": "~3.4.7",
     "chownr": "~1.0.1",
     "cmd-shim": "~2.0.2",
     "columnify": "~1.5.4",
@@ -110,6 +112,7 @@
     "write-file-atomic": "~1.3.1"
   },
   "bundleDependencies": [
+    "@npmcorp/move",
     "abbrev",
     "ansi-regex",
     "ansicolors",
@@ -117,6 +120,7 @@
     "aproba",
     "archy",
     "asap",
+    "bluebird",
     "chownr",
     "cmd-shim",
     "columnify",
